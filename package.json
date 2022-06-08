@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Shravana Tirtha's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shravanatirtha/portfolio.git"
+  },
+  "keywords": [
+    "shravana",
+    "tirtha",
+    "portfolio"
+  ],
+  "author": "Shravana Tirtha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shravanatirtha/portfolio/issues"
+  },
+  "homepage": "https://github.com/shravanatirtha/portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
