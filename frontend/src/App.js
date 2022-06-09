@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Button, Heading, Stack, Text } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stack spacing={4} bg="white" p={8} borderRadius="lg">
+    <Heading as="h1" size="md" color="brand.900">
+      Learning Chakra UI
+    </Heading>
+    <Text as="p" fontSize="md" color="brand.500">
+      Your first Chakra components:
+    </Text>
+    <Button variantColor="brand" isFullWidth>
+      Click me
+    </Button>
+  </Stack>
   );
 }
 
