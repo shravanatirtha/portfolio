@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const dotenv = require("dotenv");
 dotenv.config();
-const PORT= process.env.PORT || 5000
+const PORT = process.env.PORT;
 // -----------deployment----------
 const __dirname1 = path.resolve();
 if (process.env.NODE_ENV === "production") {
