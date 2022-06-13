@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const dotenv = require("dotenv");
 dotenv.config();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8001;
 // -----------deployment----------
 const __dirname1 = path.resolve();
 if (process.env.NODE_ENV === "production") {
@@ -19,5 +19,5 @@ if (process.env.NODE_ENV === "production") {
 // -----------deployment----------
 
 app.listen(PORT, () => {
-  console.log("Node server running at http://localhost:5000");
+  console.log(`Node server running at http://localhost:${PORT}`);
 });
