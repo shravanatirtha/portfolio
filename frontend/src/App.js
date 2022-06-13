@@ -4,7 +4,7 @@ import { Flex, Heading, Spacer, VStack } from "@chakra-ui/layout";
 import { FaGithub, FaGoogle, FaLinkedin, FaMoon, FaSun } from "react-icons/fa";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
-import Logo from "./img/stc.png";
+//import Logo from "./img/stc.png";
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
@@ -13,7 +13,7 @@ function App() {
     <VStack p={5}>
       <Flex w="100%">
         <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">
-          <image src={Logo} />
+          {/* <img src={Logo} alt="STC" height={"50px"} /> */}
         </Heading>
 
         <Spacer></Spacer>
