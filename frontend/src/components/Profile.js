@@ -65,7 +65,7 @@ function Profile() {
             h="30vh"
             w="30vh"
             justify="flex-end"
-            _hover={{ bg: "green.400" }}
+            _hover={{ bg: "teal.400" }}
           >
             <Icon as={DiWebplatform} p="4" w="24" h="24" color="black" />
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
