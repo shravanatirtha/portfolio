@@ -40,14 +40,14 @@ function Header() {
             Shravana Tirtha
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
-            Competitive Programmer
+            Software Engineer
           </Text>
           <Button
             mt={8}
             colorScheme="blue"
             onClick={() => window.open("https://leetcode.com/shravana-tirtha/")}
           >
-            Hire Me
+            Contact Me
           </Button>
         </Box>
         <Image
